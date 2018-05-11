@@ -49,8 +49,10 @@
     },
     {
       "name": "../docs",
-        "preset": "es5-bundled",
-        "addServiceWorker": false
+      "preset": "es6-bundled",
+      "addPushManifest": false,
+      "insertPrefetchLinks": false,
+      "addServiceWorker": false
     },
     {
       "name": "es5-bundled",
