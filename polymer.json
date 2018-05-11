@@ -49,18 +49,8 @@
     },
     {
       "name": "../docs",
-      "js": {
-        "minify": true,
-        "transformModulesToAmd": true
-      },
-      "css": {
-        "minify": true
-      },
-      "html": {
-        "minify": true
-      },
-      "bundle": true,
-      "addServiceWorker": true
+        "preset": "es5-bundled",
+        "addServiceWorker": false
     },
     {
       "name": "es5-bundled",
