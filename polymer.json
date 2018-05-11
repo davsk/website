@@ -49,9 +49,6 @@
     },
     {
       "name": "../docs",
-      "browserCapabilities": [
-        "es2015"
-      ],
       "js": {
         "minify": false,
         "transformModulesToAmd": true
