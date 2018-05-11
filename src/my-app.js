@@ -8,8 +8,14 @@
  * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
  */
 
-import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
-import { setPassiveTouchGestures, setRootPath } from '@polymer/polymer/lib/utils/settings.js';
+import {
+  PolymerElement, html
+}
+from '@polymer/polymer/polymer-element.js';
+import {
+  setPassiveTouchGestures, setRootPath
+}
+from '@polymer/polymer/lib/utils/settings.js';
 import '@polymer/app-layout/app-drawer/app-drawer.js';
 import '@polymer/app-layout/app-drawer-layout/app-drawer-layout.js';
 import '@polymer/app-layout/app-header/app-header.js';
@@ -33,10 +39,10 @@ setRootPath(MyAppGlobals.rootPath);
 
 class MyApp extends PolymerElement {
   static get template() {
-    return html`
+    return html `
       <style>
         :host {
-          --app-primary-color: #4285f4;
+          --app-primary-color: GoldenRod;
           --app-secondary-color: black;
 
           display: block;
@@ -130,10 +136,10 @@ class MyApp extends PolymerElement {
   }
 
   _routePageChanged(page) {
-     // Show the corresponding page according to the route.
-     //
-     // If no page was found in the route data, page will be an empty string.
-     // Show 'view1' in that case. And if the page doesn't exist, show 'view404'.
+    // Show the corresponding page according to the route.
+    //
+    // If no page was found in the route data, page will be an empty string.
+    // Show 'view1' in that case. And if the page doesn't exist, show 'view404'.
     if (!page) {
       this.page = 'view1';
     } else if (['view1', 'view2', 'view3'].indexOf(page) !== -1) {

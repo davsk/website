@@ -1,0 +1,48 @@
+/*fonts.css*/
+
+
+/*
+    by David Skinner
+    on May 10, 2018
+    for Davsk.Net
+
+https://fonts.google.com/selection?selection.family=Alegreya+SC:500|Alegreya:400,400i,800|Bungee+Shade|Faster+One|IBM+Plex+Mono:500|Meddon|Overlock+SC&category=Handwriting
+*/
+
+
+body,
+p,
+figcaption {
+  font-family: 'Alegreya:400', serif;
+}
+code {
+  font-family: 'IBM Plex Mono', monospace;
+}
+i,
+cite,
+address {
+  font-family: 'Alegreya:400i', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Alegreya:800', serif;
+}
+.dls_signature {
+  font-family: 'Meddon', cursive;
+}
+a {
+  font-family: 'Overlock SC', cursive;
+}
+em {
+  font-family: 'Alegreya SC', serif;
+}
+header h1 {
+  font-family: 'Bungee Shade', cursive;
+}
+header em,
+em.dls_logo {
+  font-family: 'Faster One', cursive;
+}
